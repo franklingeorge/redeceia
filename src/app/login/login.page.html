@@ -1,0 +1,24 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content>
+  <ion-card-title text-color="primary">Rede Ceia</ion-card-title>
+    <ion-card class="center">
+      <ion-card-content>
+        <ion-item id="email">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item id="password">
+          <ion-label position="floating">Senha</ion-label>
+        <ion-input type="password"></ion-input>
+        </ion-item>
+          <ion-button color="primary" fill="clear">Esqueceu a Senha?</ion-button>
+          <ion-button color="success" size="block" [routerLink]="['/folder/inbox']">Entrar</ion-button>
+        <ion-item>
+          <ion-text id="inscrever">Não tem uma conta?<ion-button fill='clear' id="inscrever" [routerLink]="['/inscrever']">Inscrever-se.</ion-button></ion-text>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+</ion-content>

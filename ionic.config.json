@@ -1,0 +1,7 @@
+{
+  "name": "redeceia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

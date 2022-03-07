@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Seleção de Cadastros</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card id="topo">
+
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-button size="full" color="primary" [routerLink]="['/cad-membro']">Membros</ion-button>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-button size="full" color="primary" [routerLink]="['/cad-celula']">Células </ion-button>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-button size="full" color="primary"[routerLink]="['/cad-eventos']">Eventos </ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card >
+    <ion-card-content id="lista">
+      <ion-label>Membros |</ion-label>
+      <ion-label> Células | </ion-label>
+      <ion-label> Eventos</ion-label>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-searchbar>
+
+      </ion-searchbar>
+    </ion-card-content>
+    <ion-card-content>
+     <ion-item><ion-label>Nome</ion-label><ion-label>Cargo</ion-label></ion-item>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

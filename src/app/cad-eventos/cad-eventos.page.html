@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cadastro de Eventos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+  <ion-card-content>
+    <ion-item><ion-datetime locale="pt-Br"></ion-datetime></ion-item>
+    <ion-item></ion-item>
+  </ion-card-content>
+</ion-card >
+<ion-card class="text-center">
+  <ion-item>Criar Eventos</ion-item></ion-card>
+<ion-card>
+  <ion-button color='success'size="full">Salvar</ion-button>
+    <ion-button size="full" [routerLink]="['/select-cad']">Voltar</ion-button>
+</ion-card>
+</ion-content>

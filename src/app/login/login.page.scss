@@ -1,0 +1,14 @@
+ion-content{
+    --background: var(--ion-color-successs-tint)
+}
+ion-card-title{
+    margin-top: 80px;
+    padding-left: 100px;
+    font-size: 35px;
+}
+ion-button[color=success]{
+    font-size: 25px;
+}
+ion-button[color=primary]{
+    font-size: 13px;
+}
